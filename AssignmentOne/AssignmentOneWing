@@ -1,0 +1,17 @@
+# afer researching, massive amounts of googling, and being capitvated by Thomas S's Panda...
+# library I was able come up with a very minimal program
+# This line is calling the panda library
+import pandas
+
+#this line reads the csv file into the variable inputfile
+inputfile = pandas.read_csv('datagovdatasetsviewmetrics.csv')
+
+#the data is being organized and is being grouped by the organization name.
+#The views are then added under one name and are sorted in ascending order and only list the last 10 (highest)
+data = inputfile[['Organization Name','Views per Month']].groupby('Organization Name').sum().sort(columns='Views per Month').tail(10)
+
+#Pretty Print Table 
+print data
+
+#Bar Chart
+data.plot(kind='bar')
