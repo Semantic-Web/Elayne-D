@@ -1,0 +1,38 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Elayne Delgado</foaf:name>
+<foaf:title>Ms.</foaf:title>
+<foaf:givenname>Elayne</foaf:givenname>
+<foaf:family_name>Delgado</foaf:family_name>
+<foaf:mbox_sha1sum>3989db15e91ab4cd96090cbfe452e4cfe98795e2</foaf:mbox_sha1sum>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Frank Rodriguez</foaf:name>
+<foaf:mbox_sha1sum>dc5dead92025af2f9b8a8f7cb90187aadd1547ca</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="Franklin"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Eric Borenstein</foaf:name>
+<foaf:mbox_sha1sum>9dd73bd18900b6c46120a9a9a18b63b8523365d0</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="Eric"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Bryan Delgado</foaf:name>
+<foaf:mbox_sha1sum>344ccfc3d9317d64c39be2a79ec5d0181878fe06</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="B"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Yara Rodriguez</foaf:name>
+<foaf:mbox_sha1sum>c8c74802602c9e8bdc74405218b53c27937ab746</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="Yarita"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
