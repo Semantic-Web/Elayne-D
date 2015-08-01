@@ -1,0 +1,5 @@
+the point of this code is the user is prompted in popup form to enter the latitude and longitude of their choice. 
+The output to the console returns the timezone code, country code and time. 
+This is a replica of the timezone portion on the geonames site. 
+
+To complete this, the two jar files geonames-1.1.12.jar and jdom-1.0.jar were to be added to the build path. 
